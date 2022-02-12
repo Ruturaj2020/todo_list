@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  background-color: olive;
+}
+
+html {
+  font-size: 70%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
