@@ -9,6 +9,17 @@
   background-color: brown;
 }
 
+.apphead {
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 25%;
+  margin-right: 25%;
+  font-size: large;
+  background-color: #34df9d;
+  padding: 10px;
+  box-shadow: 0.2rem 0.2rem black;
+}
+
 .todo-form {
   display: flex;
   font-size: 2rem;
@@ -27,11 +38,13 @@
 .todo-form button {
   border: 1px solid black;
   background-color: antiquewhite;
-  padding: 2rem 3rem;
+  padding: 1rem;
+  margin: 1rem;
+  border: 1px solid black;
 }
 
 .task-div {
-  background-color: cyan;
+  background-color: rgb(0, 255, 55);
   padding: 1rem;
   display: flex;
   justify-content: space-between;

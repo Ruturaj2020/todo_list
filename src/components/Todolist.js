@@ -13,13 +13,13 @@ export default function () {
         setTodos(newTodos);
     }
 const removeTask = id => {
-    let updatedTasks = [...todos].filter(task => task.id!=id)
+    let updatedTasks = [...todos].filter(task => task.id!==id)
     setTodos(updatedTasks)
 } 
 
 const completeTask = id => {
     let updatedTasks = todos.map(todo => {
-        if(todo.id==id){
+        if(todo.id===id){
             todo.isdone=true;
         }
         return todo;
@@ -28,6 +28,7 @@ const completeTask = id => {
 }
 
     return <div>
+        <div className='apphead'>TODO LIST APP</div>
         <TodoForm addTask={addTask}></TodoForm>
         <Todo todos={todos} completeTask={completeTask} removeTask={removeTask}></Todo>
     </div>;
